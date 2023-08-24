@@ -41,3 +41,11 @@ print(house_price_dataframe.describe())
 '''Positive and negative correlation'''
 correlation = house_price_dataframe.corr()
 
+'''splitting the data and target'''
+X = house_price_dataframe.drop(['price'], axis=1)
+Y = house_price_dataframe['price']
+
+print(X)
+print(Y)
+
+'''splitting the data intro training and test data'''
