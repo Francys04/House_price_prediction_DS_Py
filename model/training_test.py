@@ -1,7 +1,10 @@
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split  #  function from scikit-learn's model_selection module.
+# This function is used for splitting a dataset into training and testing subsets.
 from src.processing import X, Y
-from xgboost import XGBRegressor
-from sklearn import metrics
+from xgboost import XGBRegressor  # This line imports the XGBRegressor class from the XGBoost library.
+# XGBoost is a popular gradient boosting framework used for regression tasks.
+from sklearn import metrics  #  It imports the metrics module from scikit-learn.
+# This module provides various metrics and functions for evaluating machine learning models.
 
 '''splitting  the data intro training data and test data'''
 
@@ -31,7 +34,7 @@ print(training_data_prediction)
 #
 # print("R square error : ", score_1)
 # print("Mean Absolute error : ", score_2)
-
+#
 # '''accuaracy for prediction on test data'''
 # test_data_prediction = model.predict(X_test)
 #
@@ -43,3 +46,5 @@ print(training_data_prediction)
 #
 # print("R square error : ", score_1)
 # print("Mean Absolute error : ", score_2)
+
+#%%

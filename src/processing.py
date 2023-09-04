@@ -1,6 +1,7 @@
-from sklearn.datasets import fetch_california_housing
-import numpy as np
-import pandas as pd
+from sklearn.datasets import fetch_california_housing  # This line imports the fetch_california_housing function from
+# scikit-learn's datasets module. It's used to load the California housing dataset.
+import numpy as np  # This line imports the NumPy library, typically used for numerical and mathematical operations.
+import pandas as pd  # This line imports the Pandas library, which is used for data manipulation and analysis.
 
 # Load the Boston Housing dataset
 

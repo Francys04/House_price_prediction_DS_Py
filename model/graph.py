@@ -1,5 +1,7 @@
-import matplotlib.pyplot as plt
-import seaborn as sns
+import matplotlib.pyplot as plt  # This line imports the matplotlib.pyplot library, which is commonly used for
+# creating data visualizations and plots.
+import seaborn as sns  #  Seaborn provides a high-level interface for creating informative and attractive
+# statistical graphics.
 from src.processing import house_price_dataframe
 from model.training_test import Y_train, training_data_prediction
 
@@ -18,4 +20,6 @@ plt.xlabel("Actual Prices")
 plt.ylabel("Predicted Prices")
 plt.title("Actual Price vs Predicted Price")
 
-plt.show()
+plt.show(block=True)
+
+#%%
